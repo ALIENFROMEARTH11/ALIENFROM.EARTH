@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Mistral';
+    src: url('mistral.ttf') format('truetype');
+}
+
+
+body {
+    margin: 0;
+    font-family: mistral, sans-serif; /* Specify a fallback font */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px; /* Add margin at the bottom of the header */
+}
+
+/* Apply Mistral font to the countdown timer */
+.countdown {
+    font-family: 'Mistral', sans-serif; /* Use Mistral font with fallback to sans-serif */
+    margin-top: -60px;
+}
+
+/* Apply Mistral font to the copyright text */
+.container {
+    font-family: 'Mistral', sans-serif; /* Use Mistral font with fallback to sans-serif */
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.logo img {
+    display: inline-block; /* Ensure the logo is centered properly */
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons .icon {
+    margin: 0 10px;
+}
+
+.small-logo {
+    width: 280px;
+    height: 280px;
+}
+
+.small-icon {
+    width: 44px;
+    height: 44px;
+}

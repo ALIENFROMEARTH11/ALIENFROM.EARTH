@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Animation</title>
+</head>
+<body>
+    <div id="svgContainer"></div>
+
+    <script>
+        // Array containing the IDs of your SVG frames
+        var svgFrames = ['frame1', 'frame2', 'frame3', 'frame4'];
+
+        // Function to display each SVG frame sequentially with a delay
+        function displayFrames() {
+            var container = document.getElementById('svgContainer');
+            var index = 0;
+
+            // Function to display the next frame
+            function displayNextFrame() {
+                // Clear the container
+                container.innerHTML = '';
+
+                // Create an <object> element for the current SVG frame
+                var object = document.createElement('object');
+                object.type = 'image/svg+xml';
+                object.data = svgFrames[index] + '.svg'; // Assuming your SVG files are named frame1.svg, frame2.svg, etc.
+                container.appendChild(object);
+
+                // Move to the next frame
+                index = (index + 1) % svgFrames.length;
+
+                // Repeat after a delay (500 milliseconds = 0.5 seconds)
+                setTimeout(displayNextFrame, 500);
+            }
+
+            // Start displaying frames
+            displayNextFrame();
+        }
+
+        // Call the function to start the animation
+        displayFrames();
+    </script>
+</body>
+</html>
