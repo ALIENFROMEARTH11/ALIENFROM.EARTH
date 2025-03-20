@@ -1,4 +1,4 @@
-CountDownTimer('10/10/2024 01:0 AM', 'countdown');
+CountDownTimer('8/28/2024 01:0 AM', 'countdown');
 
 
 function CountDownTimer(dt, id)
@@ -17,7 +17,7 @@ function CountDownTimer(dt, id)
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = 'boom';
+            document.getElementById(id).innerHTML = 'wiz';
 
             return;
         }
