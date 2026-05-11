@@ -17,7 +17,7 @@ function CountDownTimer(dt, id)
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = 'zard';
+            document.getElementById(id).innerHTML = '';
 
             return;
         }
