@@ -32,5 +32,6 @@ function CountDownTimer(dt, id)
         document.getElementById(id).innerHTML += seconds + '         ';
     }
 
-    timer = setInterval(showRemaining, 1000);
+    showRemaining();
+timer = setInterval(showRemaining, 1000);
 }
