@@ -78,3 +78,15 @@ body {
     width: 44px;
     height: 44px;
 }
+.soundcloud-wrap {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    opacity: 0.92;
+}
+
+.soundcloud-wrap iframe {
+    border: none;
+    overflow: hidden;
+    filter: grayscale(100%) contrast(120%);
+}
