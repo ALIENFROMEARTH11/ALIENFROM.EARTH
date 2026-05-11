@@ -16,8 +16,8 @@ body {
 .header {
      text-align: center;
     padding: 20;
-    margin-top: 20px;
-    margin-bottom: 20px; /* Add margin at the bottom of the header */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Add margin at the bottom of the header */
 }
 
 /* Apply Mistral font to the countdown timer */
