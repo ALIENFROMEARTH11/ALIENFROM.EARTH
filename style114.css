@@ -71,7 +71,10 @@ body {
 
 .small-logo {
     width: 280px;
-    height: 280px;
+
+    height: auto;
+
+    margin-top: -40px;
 }
 
 .small-icon {
