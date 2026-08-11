@@ -23,7 +23,7 @@ body {
 /* Apply Mistral font to the countdown timer */
 .countdown {
     font-family: 'Mistral', sans-serif; /* Use Mistral font with fallback to sans-serif */
-    margin-top: -60px;
+    margin-top: 20px;
 }
 
 /* Apply Mistral font to the copyright text */
